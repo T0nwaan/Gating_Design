@@ -5,6 +5,7 @@ from GD.saveFile import SaveFile
 import numpy as np
 import csv
 import pandas as pd
+import random
 
 st.header("Gating Design on Web")
 ch = st.radio("รายการคำนวณ",("CalcGating","CalcModulus","CalcRiser","FileGating","FileRiser"))
