@@ -7,7 +7,7 @@ import csv
 import pandas as pd
 
 st.header("Gating Design on Web")
-ch = st.radio("รายการคำนวณ",("CalcGating","CalcRiser","FileGating","FileRiser"))
+ch = st.radio("รายการคำนวณ",("CalcGating","CalcModulus","CalcRiser","FileGating","FileRiser"))
 
 if ch == "CalcGating":
     h = st.number_input("กรุณาเลือกตัวเลขความสูง",min_value=0,max_value=450,value=200,step=5)
