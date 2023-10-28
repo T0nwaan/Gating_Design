@@ -54,8 +54,7 @@ if ch == "CalcGating":
                 CalcArea.data,
                 columns=SaveFile.gating_header)
     st.write(dfg)
-if ch == "CalcModulus":
-    pass
+
 
 if ch == "CalcRiser":
 
